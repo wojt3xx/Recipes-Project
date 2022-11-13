@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 4rem;
+    text-shadow: 4px 4px 3px gainsboro;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+}
+
+.recipes img {
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.recipe-container button {
+    border: none;
+    background-color: orange;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
